@@ -75,6 +75,8 @@
 .tree_node {
   text-align:left;
 }
+.menu_item {
+}
 ._连接符 {
 }
 .sticky_1 {
@@ -84,6 +86,9 @@
   text-align:left;
 }
 .sticky_3 {
+  text-align:left;
+}
+.sticky_4 {
   text-align:left;
 }
 ._流程形状 {

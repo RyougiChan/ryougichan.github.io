@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTTP协议</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/http__/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/http__/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66" class="ax_default sticky_3">
+        <div id="u66_div" class=""></div>
+        <div id="u66_text" class="text ">
+          <p><span>HTTP协议</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67" class="ax_default sticky_1">
+        <div id="u67_div" class=""></div>
+        <div id="u67_text" class="text ">
+          <p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP协议</span><span style="font-family:'思源黑体 CN';font-weight:400;">是Hyper Text Transfer Protocol（超文本传输协议）的缩写,是用于从万维网服务器传输超文本到本地浏览器的传送协议。HTTP 是基于 TCP/IP 协议通信协议来传递数据（HTML 文件, 图片文件, 查询结果等）。它不涉及数据包（packet）传输，</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">主要规定了客户端和服务器之间的通信格式</span><span style="font-family:'思源黑体 CN';font-weight:400;">，默认使用80端口。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u68" class="ax_default _连接符">
+        <img id="u68_seg0" class="img " src="images/http__/u68_seg0.png" alt="u68_seg0"/>
+        <img id="u68_seg1" class="img " src="images/http__/u68_seg1.png" alt="u68_seg1"/>
+        <img id="u68_seg2" class="img " src="images/http__/u68_seg2.png" alt="u68_seg2"/>
+        <img id="u68_seg3" class="img " src="images/http__/u68_seg3.png" alt="u68_seg3"/>
+        <div id="u68_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u69" class="ax_default sticky_3">
+        <div id="u69_div" class=""></div>
+        <div id="u69_text" class="text ">
+          <p><span>特点</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u70" class="ax_default _连接符">
+        <img id="u70_seg0" class="img " src="images/http__/u70_seg0.png" alt="u70_seg0"/>
+        <img id="u70_seg1" class="img " src="images/http__/u70_seg1.png" alt="u70_seg1"/>
+        <div id="u70_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u71" class="ax_default sticky_3">
+        <div id="u71_div" class=""></div>
+        <div id="u71_text" class="text ">
+          <p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">1. 简单快速</span></p><p><span style="font-family:'思源黑体 CN';font-weight:400;">客户向服务器请求服务时，只需传送请求方法和路径。由于HTTP协议简单，使得HTTP服务器的程序规模小，因而通信速度很快。</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">2. 媒体独立</span></p><p><span style="font-family:'思源黑体 CN';font-weight:400;">只要客户端和服务器知道如何处理的数据内容，任何类型的数据都可以通过HTTP发送。客户端以及服务器指定使用适合的 MIME-TYPE 内容类型。</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">3. 无连接</span></p><p><span style="font-family:'思源黑体 CN';font-weight:400;">限制每次连接只处理一个请求。服务器处理完客户的请求，并收到客户的应答后，即断开连接。采用这种方式可以节省传输时间。</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">4. 无状态</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP协议是无状态的，HTTP 协议自身不对请求和响应之间的通信状态进行保存。任何两次请求之间都没有依赖关系。</span><span style="font-family:'思源黑体 CN';font-weight:400;">协议本身并不保留之前一切的请求或 响应报文的信息。</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">这是为了更快地处理大量事务，确保协议的可伸缩性。缺少状态意味着如果后续处理需要前面的信息，则它必须重传，这样可能导致每次连接传送的数据量增大。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u72" class="ax_default sticky_1">
+        <div id="u72_div" class=""></div>
+        <div id="u72_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP 请求方法：</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">GET</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 请求指定的资源，并返回实体主体</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">POST</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 向指定资源提交数据进行处理请求，数据被包含在请求体中</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HEAD</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 类似于GET请求，返回的响应中无具体内容，用于获取报头</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">PUT</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 从客户端向服务器传送的数据取代指定的文档的内容</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">DELETE</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 删除指明的URL所标识的资源</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">TRACE</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 用来进行环回测试的请求报文</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">CONNECT</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 仅用于代理服务器</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">OPTION</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 请求一些选项的信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图像) -->
+      <div id="u73" class="ax_default image">
+        <img id="u73_img" class="img " src="images/浏览器完成一次网页请求经历的过程/u50.jpg"/>
+      </div>
+
+      <!-- Unnamed (图像) -->
+      <div id="u74" class="ax_default image">
+        <img id="u74_img" class="img " src="images/浏览器完成一次网页请求经历的过程/u51.jpg"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u75" class="ax_default sticky_3">
+        <div id="u75_div" class=""></div>
+        <div id="u75_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">典型的常用请求头：</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">User-Agent</span><span style="font-family:'思源黑体 CN';font-weight:400;">：产生请求的客户端类型。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Accept</span><span style="font-family:'思源黑体 CN';font-weight:400;">：客户端可识别的内容类型列表。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Host</span><span style="font-family:'思源黑体 CN';font-weight:400;">：请求的主机名，允许多个域名同处一个IP地址</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Accept-Encoding</span><span style="font-family:'思源黑体 CN';font-weight:400;">： 客户端使用的编码环境和编码方式</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Accept-Language</span><span style="font-family:'思源黑体 CN';font-weight:400;">： 客户端语言环境</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Authorization</span><span style="font-family:'思源黑体 CN';font-weight:400;">：授权信息，一般用于存放授权之后的信息</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Connection</span><span style="font-family:'思源黑体 CN';font-weight:400;">：表示是否需要持久连接</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Content-Length</span><span style="font-family:'思源黑体 CN';font-weight:400;">：表示请求数据正文的长度</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Cookie</span><span style="font-family:'思源黑体 CN';font-weight:400;">：存储保持会话的重要信息</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Referer</span><span style="font-family:'思源黑体 CN';font-weight:400;">：表示该次请求的来源，一般用于做防盗链</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u76" class="ax_default sticky_3">
+        <div id="u76_div" class=""></div>
+        <div id="u76_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">状态码主要包括：</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">1xx</span><span style="font-family:'思源黑体 CN';font-weight:400;">：指示信息–表示请求已接收，继续处理。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">2xx</span><span style="font-family:'思源黑体 CN';font-weight:400;">：成功–表示请求已被成功接收、理解、接受。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">3xx</span><span style="font-family:'思源黑体 CN';font-weight:400;">：重定向–要完成请求必须进行更进一步的操作。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">4xx</span><span style="font-family:'思源黑体 CN';font-weight:400;">：客户端错误–请求有语法错误或请求无法实现。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">5xx</span><span style="font-family:'思源黑体 CN';font-weight:400;">：服务器端错误–服务器未能实现合法的请求。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u77" class="ax_default sticky_1">
+        <div id="u77_div" class=""></div>
+        <div id="u77_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">常见HTTP状态码：</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">200 OK</span><span style="font-family:'思源黑体 CN';font-weight:400;"> 表示请求被服务器正常处理 </span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">204 No Content</span><span style="font-family:'思源黑体 CN';font-weight:400;"> 表示请求已成功处理，但是没有内容返回</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">206 Partial Content</span><span style="font-family:'思源黑体 CN';font-weight:400;"> 表示服务器已经完成了部分</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">GET</span><span style="font-family:'思源黑体 CN';font-weight:400;">请求</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">301 Moved Permanently </span><span style="font-family:'思源黑体 CN';font-weight:400;">永久重定向，表示请求的资源已经永久的搬到了其他位置</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;"> </span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">302 Moved Temporarily </span><span style="font-family:'思源黑体 CN';font-weight:400;">临时重定向，表示请求的资源临时搬到了其他位置</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">303 See Other</span><span style="font-family:'思源黑体 CN';font-weight:400;"> 表示请求资源存在另一个URI，应使用GET定向获取请求资源 </span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">304 Not Modified </span><span style="font-family:'思源黑体 CN';font-weight:400;">表示请求的资源自上次请求起未修改</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">400 Bad Request </span><span style="font-family:'思源黑体 CN';font-weight:400;">表示请求报文存在语法错误或参数错误，服务器不理解</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;"> </span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">401 Unauthorized </span><span style="font-family:'思源黑体 CN';font-weight:400;">表示发送的请求需要有HTTP认证信息或者是认证失败</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">403 Forbidden </span><span style="font-family:'思源黑体 CN';font-weight:400;">表示对请求资源的访问被服务器拒绝</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">404 Not Found </span><span style="font-family:'思源黑体 CN';font-weight:400;">表示服务器找不到请求的资源</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;"> </span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">500 Internal Server </span><span style="font-family:'思源黑体 CN';font-weight:400;">Error 表示服务器执行请求的时候出错</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">502 Bad Gateway </span><span style="font-family:'思源黑体 CN';font-weight:400;">只有HTTP代理会发送这个响应代码。它表明代理方面出现问题，或者代理与上行服务器之间出现问题，而不是上行服务器本身有问题</span></p><p style="font-size:13px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;font-size:14px;">503 Server Unavailable </span><span style="font-family:'思源黑体 CN';font-weight:400;font-size:14px;">表示服务器超负载或正停机维护，无法处理请求</span><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"> </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u78" class="ax_default _连接符">
+        <img id="u78_seg0" class="img " src="images/http__/u78_seg0.png" alt="u78_seg0"/>
+        <img id="u78_seg1" class="img " src="images/http__/u78_seg1.png" alt="u78_seg1"/>
+        <img id="u78_seg2" class="img " src="images/http__/u78_seg2.png" alt="u78_seg2"/>
+        <img id="u78_seg3" class="img " src="images/http__/u78_seg3.png" alt="u78_seg3"/>
+        <div id="u78_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u79" class="ax_default sticky_3">
+        <div id="u79_div" class=""></div>
+        <div id="u79_text" class="text ">
+          <p><span>HTTP报文</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u80" class="ax_default _连接符">
+        <img id="u80_seg0" class="img " src="images/http__/u80_seg0.png" alt="u80_seg0"/>
+        <img id="u80_seg1" class="img " src="images/http__/u80_seg1.png" alt="u80_seg1"/>
+        <img id="u80_seg2" class="img " src="images/http__/u70_seg1.png" alt="u80_seg2"/>
+        <div id="u80_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u81" class="ax_default _连接符">
+        <img id="u81_seg0" class="img " src="images/http__/u81_seg0.png" alt="u81_seg0"/>
+        <img id="u81_seg1" class="img " src="images/http__/u81_seg1.png" alt="u81_seg1"/>
+        <img id="u81_seg2" class="img " src="images/http__/u81_seg2.png" alt="u81_seg2"/>
+        <img id="u81_seg3" class="img " src="images/http__/u70_seg1.png" alt="u81_seg3"/>
+        <div id="u81_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u82" class="ax_default _连接符">
+        <img id="u82_seg0" class="img " src="images/http__/u81_seg0.png" alt="u82_seg0"/>
+        <img id="u82_seg1" class="img " src="images/http__/u82_seg1.png" alt="u82_seg1"/>
+        <img id="u82_seg2" class="img " src="images/http__/u81_seg2.png" alt="u82_seg2"/>
+        <img id="u82_seg3" class="img " src="images/http__/u70_seg1.png" alt="u82_seg3"/>
+        <div id="u82_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u83" class="ax_default sticky_3">
+        <div id="u83_div" class=""></div>
+        <div id="u83_text" class="text ">
+          <p><span>HTTP请求方法</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u84" class="ax_default _连接符">
+        <img id="u84_seg0" class="img " src="images/http__/u84_seg0.png" alt="u84_seg0"/>
+        <img id="u84_seg1" class="img " src="images/http__/u84_seg1.png" alt="u84_seg1"/>
+        <img id="u84_seg2" class="img " src="images/http__/u84_seg2.png" alt="u84_seg2"/>
+        <img id="u84_seg3" class="img " src="images/http__/u84_seg3.png" alt="u84_seg3"/>
+        <div id="u84_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u85" class="ax_default _连接符">
+        <img id="u85_seg0" class="img " src="images/http__/u85_seg0.png" alt="u85_seg0"/>
+        <img id="u85_seg1" class="img " src="images/http__/u78_seg1.png" alt="u85_seg1"/>
+        <img id="u85_seg2" class="img " src="images/http__/u85_seg2.png" alt="u85_seg2"/>
+        <img id="u85_seg3" class="img " src="images/http__/u84_seg3.png" alt="u85_seg3"/>
+        <div id="u85_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u86" class="ax_default sticky_1">
+        <div id="u86_div" class=""></div>
+        <div id="u86_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP 请求方法 GET 和 POST：</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">GET在浏览器回退时是无害的，而POST会再次提交请求</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">GET请求会被浏览器主动缓存，而POST不会，除非手动设置</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">GET请求参数会被完整保留在浏览器历史记录里，而POST中的参数不会被保留</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">GET请求在URL中传送的参数是有长度限制的，而POST没有限制</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">GET参数通过URL传递，POST放在Request body中</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u87" class="ax_default _连接符">
+        <img id="u87_seg0" class="img " src="images/http__/u87_seg0.png" alt="u87_seg0"/>
+        <img id="u87_seg1" class="img " src="images/http__/u87_seg1.png" alt="u87_seg1"/>
+        <img id="u87_seg2" class="img " src="images/http__/u87_seg2.png" alt="u87_seg2"/>
+        <img id="u87_seg3" class="img " src="images/http__/u87_seg3.png" alt="u87_seg3"/>
+        <div id="u87_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u88" class="ax_default sticky_3">
+        <div id="u88_div" class=""></div>
+        <div id="u88_text" class="text ">
+          <p><span>HTTP状态码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u89" class="ax_default _连接符">
+        <img id="u89_seg0" class="img " src="images/http__/u89_seg0.png" alt="u89_seg0"/>
+        <img id="u89_seg1" class="img " src="images/http__/u89_seg1.png" alt="u89_seg1"/>
+        <img id="u89_seg2" class="img " src="images/http__/u89_seg2.png" alt="u89_seg2"/>
+        <img id="u89_seg3" class="img " src="images/http__/u89_seg3.png" alt="u89_seg3"/>
+        <div id="u89_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u90" class="ax_default _连接符">
+        <img id="u90_seg0" class="img " src="images/http__/u90_seg0.png" alt="u90_seg0"/>
+        <img id="u90_seg1" class="img " src="images/http__/u90_seg1.png" alt="u90_seg1"/>
+        <img id="u90_seg2" class="img " src="images/http__/u90_seg2.png" alt="u90_seg2"/>
+        <img id="u90_seg3" class="img " src="images/http__/u90_seg3.png" alt="u90_seg3"/>
+        <div id="u90_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u91" class="ax_default _连接符">
+        <img id="u91_seg0" class="img " src="images/http__/u91_seg0.png" alt="u91_seg0"/>
+        <img id="u91_seg1" class="img " src="images/http__/u90_seg3.png" alt="u91_seg1"/>
+        <div id="u91_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u92" class="ax_default _连接符">
+        <img id="u92_seg0" class="img " src="images/http__/u92_seg0.png" alt="u92_seg0"/>
+        <img id="u92_seg1" class="img " src="images/http__/u90_seg3.png" alt="u92_seg1"/>
+        <div id="u92_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u93" class="ax_default sticky_1">
+        <div id="u93_div" class=""></div>
+        <div id="u93_text" class="text ">
+          <p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP 0.9</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 1991年提出，只允许客户端发送 GET 请求，不支持请求头,协议只支持纯文本</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP 1.0</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 1996年提出，通过三次握手建立TCP连接，存在请求与响应支持头域，支持GET、HEAD、POST方法和状态码，默认每个TCP连接只能发送一个请求(通过设置 Connection:keep-alive 支持长连接)</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP 1.1</span><span style="font-family:'思源黑体 CN';font-weight:400;">:&nbsp; 1997年提出，1999年广泛应用。请求/响应头增加 Cache-Control，支持长连接(默认开启Connection：keep-alive)和管道机制(但是服务器还是要按照请求的顺序进行响应，会造成“队头阻塞”)</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP 2.0</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 2015年发布，采用二进制格式传输，支持多路复用（共享连接），头部压缩HPACK和服务端推送</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTP 3.0</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 基于QUIC协议（QUIC协议是基于UDP的传输层协议），特点如下：</span></p><p><span style="font-family:'思源黑体 CN';font-weight:400;">&nbsp; 1. 自定义连接机制:TCP以IP/端口标识,变化重新连接握手,UDP是一64位ID标识,是无连接</span></p><p><span style="font-family:'思源黑体 CN';font-weight:400;">&nbsp; 2. 自定义重传机制:TCP使用序号和应答传输,QUIC是使用递增序号传输</span></p><p><span style="font-family:'思源黑体 CN';font-weight:400;">&nbsp; 3. 无阻塞的多路复用:同一条QUIC可以创建多个steam</span></p><p><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HTTPS</span><span style="font-family:'思源黑体 CN';font-weight:400;">: HTTP+加密+认证+完整性保护</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u94" class="ax_default _连接符">
+        <img id="u94_seg0" class="img " src="images/http__/u94_seg0.png" alt="u94_seg0"/>
+        <img id="u94_seg1" class="img " src="images/http__/u94_seg1.png" alt="u94_seg1"/>
+        <img id="u94_seg2" class="img " src="images/http__/u70_seg1.png" alt="u94_seg2"/>
+        <div id="u94_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u95" class="ax_default sticky_1">
+        <div id="u95_div" class=""></div>
+        <div id="u95_text" class="text ">
+          <p><a id="u96" class="link"><span>JS面试之http0.9~3.0对比分析 (4)</span></a></p><p><a id="u97" class="link"><span>详说 Cookie, LocalStorage 与 SessionStorage</span></a></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u98" class="ax_default sticky_1">
+        <div id="u98_div" class=""></div>
+        <div id="u98_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">缓存分类</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;"><br></span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">1. </span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">强制缓存</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 在缓存数据未失效的情况下，可以直接使用缓存数据；在没有缓存数据的时候，浏览器向服务器请求数据时，服务器会将数据和缓存规则一并返回，缓存规则信息包含在响应header中。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Expires</span><span style="font-family:'思源黑体 CN';font-weight:400;">：缓存过期时间（HTTP1.0）</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">缺点：生成的是绝对时间，但是客户端时间可以随意修改，会导致误差。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Cache-Control</span><span style="font-family:'思源黑体 CN';font-weight:400;"> ：HTTP1.1，优先级高于Expires</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">可设置参数：</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">private</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 客户端可以缓存</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">public</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 客户端和代理服务器都可缓存</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">max-age=xxx</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 缓存的内容将在 xxx 秒后失效</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">no-cache</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 需要使用协商缓存来验证缓存数据（后面介绍）</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">no-store</span><span style="font-family:'思源黑体 CN';font-weight:400;">: 所有内容都不会缓存，强制缓存，对比缓存都不会触发</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;"><br></span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">2. </span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">协商缓存：</span><span style="font-family:'思源黑体 CN';font-weight:400;">浏览器第一次请求数据时，服务器会将缓存标识与数据一起返回给客户端，客户端将二者备份至缓存数据库中。再次请求数据时，客户端将备份的缓存标识发送给服务器，服务器根据缓存标识进行判断，判断成功后，返回304状态码，通知客户端比较成功，可以使用缓存数据。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">2.1. </span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Last-Modified / If-Modified-Since</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">Last-Modified：服务器在响应请求时，告诉浏览器资源的最后修改时间。(Last-Modified 标注的最后修改时间只能精确到</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">秒</span><span style="font-family:'思源黑体 CN';font-weight:400;">)</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">If-Modified-Since：再次请求服务器时，通过此字段通知服务器上次请求时，服务器返回的资源最后修改时间。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">2.2. </span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Etag / If-None-Match(优先级较高)</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">Etag：给资源计算得出的一个唯一标志符。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">If-None-Match：再次请求服务器时，通过此字段通知服务器客户端缓存数据的唯一标识。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u99" class="ax_default sticky_3">
+        <div id="u99_div" class=""></div>
+        <div id="u99_text" class="text ">
+          <p><span>HTTP缓存机制</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u100" class="ax_default _连接符">
+        <img id="u100_seg0" class="img " src="images/http__/u100_seg0.png" alt="u100_seg0"/>
+        <img id="u100_seg1" class="img " src="images/http__/u100_seg1.png" alt="u100_seg1"/>
+        <img id="u100_seg2" class="img " src="images/http__/u100_seg2.png" alt="u100_seg2"/>
+        <img id="u100_seg3" class="img " src="images/http__/u100_seg3.png" alt="u100_seg3"/>
+        <div id="u100_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u101" class="ax_default _连接符">
+        <img id="u101_seg0" class="img " src="images/http__/u101_seg0.png" alt="u101_seg0"/>
+        <img id="u101_seg1" class="img " src="images/http__/u101_seg1.png" alt="u101_seg1"/>
+        <img id="u101_seg2" class="img " src="images/http__/u101_seg2.png" alt="u101_seg2"/>
+        <img id="u101_seg3" class="img " src="images/http__/u101_seg3.png" alt="u101_seg3"/>
+        <div id="u101_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u102" class="ax_default sticky_1">
+        <div id="u102_div" class=""></div>
+        <div id="u102_text" class="text ">
+          <p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">cookie、session、localStorage、sessionStorage</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">1. cookie</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">解决http的无状态问题，是客户端保存用户信息的一种机制，用来记录用户的一些信息，来实现session的跟踪。</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">cookie的同源是域名相同</span><span style="font-family:'思源黑体 CN';font-weight:400;">，忽略协议和端口，不可跨域。它的大小限制为</span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">4KB</span><span style="font-family:'思源黑体 CN';font-weight:400;">左右。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| 属性名&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 意义&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| name/value&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 以key/value的形式存在&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| comment&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | 说明该cookie的用处&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| domain&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | 可以访问该cookie的域名&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| </span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">Expires/maxAge</span><span style="font-family:'思源黑体 CN';font-weight:400;"> | cookie失效时间。负数：临时 cookie，关闭浏览器就失效；0：表示删除cookie，默认为-1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| path&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 可以访问此cookie的页面路径 |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| size&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | cookie的大小&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| secure&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 是否以https协议传输&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| version&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 该cookie使用的版本号，0遵循Netscape规范，大多数用这种，1遵循W3C规范&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">| </span><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">HttpOnly</span><span style="font-family:'思源黑体 CN';font-weight:400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | 此属性为true时只有在http请求头中会带有此cookie的信息，不能通过document.cookie来访问此cookie |</span></p><p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">2. session</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">session是在服务端保存的一个数据结构，用来跟踪用户的状态，这个数据可以保存在集群、数据库、文件中。session的运行依赖session id，而session id是存在 cookie 中。如果禁用 cookie ，使用URL重写技术来进行会话跟踪，在 URL 中传递 session id。</span></p><p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">3. localStorage</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">HTML5 标准中新加入的技术，用于持久化的本地存储，除非主动删除数据，否则数据是永远不会过期的。</span></p><p style="font-size:16px;"><span style="font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';font-weight:700;">4. sessionStorage</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;">用于本地存储一个会话（session）中的数据，这些数据只有在同一个会话中的页面才能访问并且当会话结束后数据也随之销毁。</span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;"><br></span></p><p style="font-size:14px;"><span style="font-family:'思源黑体 CN';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接符) -->
+      <div id="u103" class="ax_default _连接符">
+        <img id="u103_seg0" class="img " src="images/http__/u103_seg0.png" alt="u103_seg0"/>
+        <img id="u103_seg1" class="img " src="images/http__/u103_seg1.png" alt="u103_seg1"/>
+        <img id="u103_seg2" class="img " src="images/http__/u103_seg2.png" alt="u103_seg2"/>
+        <img id="u103_seg3" class="img " src="images/http__/u103_seg3.png" alt="u103_seg3"/>
+        <div id="u103_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图像) -->
+      <div id="u104" class="ax_default image">
+        <img id="u104_img" class="img " src="images/http__/u104.png"/>
+      </div>
+    </div>
+  </body>
+</html>
